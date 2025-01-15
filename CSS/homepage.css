@@ -1,32 +1,63 @@
 /*Layout*/
-#header {
-    color:black;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-nav {
-    color: black;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
 
 body {
-    color: black;
-    background-color: white;
     display: flex;
+    background-color: black;
     align-items: center;
     flex-direction: column;
 }
 
 #webpage-title-home-page {
     color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.navigation {
+    color: black;
+    background-color: #ffb7c5;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 20px;
+}
+
+#home-page-paragraph {
+    color: black;
     background-color: white;
     display: flex;
-    align-content: center;
-    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 600px;
+
+
+}
+
+.links {
+    color: black;
+    background-color: #ffb7c5;
+}
+
+header {
+    color: black;
+    background-color: #ffb7c5;
+    width: 600px;
+    padding: 20px;
+}
+
+footer {
+    color: black;
+    background-color: #ffb7c5;
+    width: 600px;
+    padding: 20px;
+}
+
+#image-homepage {
+    color: black;
+    background-color: white;
+    width: 600px;
+    padding: 20px;
 }
