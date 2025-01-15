@@ -3,6 +3,30 @@
     color:black;
     background-color: white;
     display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+nav {
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+body {
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#webpage-title-home-page {
+    color: black;
+    background-color: white;
+    display: flex;
     align-content: center;
     flex-direction: row;
 }
