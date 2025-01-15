@@ -1,0 +1,8 @@
+/*Layout*/
+#header {
+    color:black;
+    background-color: white;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+}
