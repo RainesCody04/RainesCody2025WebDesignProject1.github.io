@@ -5,6 +5,7 @@ body {
     background-color: black;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 #webpage-title-home-page {
@@ -32,8 +33,7 @@ body {
     text-align: center;
     padding: 20px;
     width: 600px;
-
-
+    margin: 0;
 }
 
 .links {
@@ -61,3 +61,14 @@ footer {
     width: 600px;
     padding: 20px;
 }
+
+.image {
+    background-color: white;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+
