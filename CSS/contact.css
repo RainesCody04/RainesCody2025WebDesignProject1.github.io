@@ -34,7 +34,57 @@ body {
     padding: 20px;
     width: 600px;
     margin: 0;
+    flex-direction: column;
 }
+
+.phone-number-info {
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 600px;
+    margin: 0;
+    flex-direction: row;
+}
+
+.email-info {
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 600px;
+    margin: 0;
+    flex-direction: row;
+}
+
+.fax-info {
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 600px;
+    margin: 0;
+    flex-direction: row;
+}
+
+#contact-info-div {
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 600px;
+    margin: 0;
+    flex-direction: column;
+}
+
 
 .links {
     color: black;
