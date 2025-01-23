@@ -79,8 +79,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 20px;
-    width: 600px;
+    width: 1000px;
     margin: 0;
     flex-direction: column;
 }
@@ -94,21 +93,18 @@ body {
 header {
     color: black;
     background-color: #ffb7c5;
-    width: 600px;
-    padding: 20px;
+    width: 1000px;
 }
 
 footer {
     color: black;
     background-color: #ffb7c5;
-    width: 600px;
-    padding: 20px;
+    width: 1000px;
 }
 
 #image-contact-page {
     background-color: white;
-    width: 600px;
-    padding: 20px;
+    width: 1000px;
 }
 
 .image {

@@ -13,6 +13,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 0;
     
 }
 
@@ -31,9 +32,9 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 20px;
-    width: 600px;
+    width: 1000px;
     margin: 0;
+    justify-content: center;
 }
 
 .links {
@@ -44,22 +45,19 @@ body {
 header {
     color: black;
     background-color: #ffb7c5;
-    width: 600px;
-    padding: 20px;
+    width: 1000px;
 }
 
 footer {
     color: black;
     background-color: #ffb7c5;
-    width: 600px;
-    padding: 20px;
+    width: 1000px;
 }
 
 #image-homepage {
     color: black;
     background-color: white;
-    width: 600px;
-    padding: 20px;
+    width: 1000px;
 }
 
 .image {
