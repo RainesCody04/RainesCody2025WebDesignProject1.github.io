@@ -13,6 +13,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 0;
     
 }
 
@@ -29,8 +30,6 @@ body {
     color: black;
     background-color: white;
     display: flex;
-    align-items: center;
-    text-align: center;
     padding: 20px;
     width: 600px;
     margin: 0;
@@ -77,11 +76,11 @@ body {
     color: black;
     background-color: white;
     display: flex;
-    align-items: center;
-    text-align: center;
-    width: 1000px;
+    width: 1200px;
     margin: 0;
-    flex-direction: column;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: center;
 }
 
 
@@ -93,18 +92,21 @@ body {
 header {
     color: black;
     background-color: #ffb7c5;
-    width: 1000px;
+    width: 1200px;
+    padding: 5px;
 }
 
 footer {
     color: black;
     background-color: #ffb7c5;
-    width: 1000px;
+    width: 1200px;
+    padding: 5px;
 }
 
 #image-contact-page {
     background-color: white;
-    width: 1000px;
+    width: 1200px;
+    padding: 5px;
 }
 
 .image {
@@ -115,3 +117,24 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+.contact-info {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 1200px;
+    margin: 0;
+    flex-direction: row;
+    padding: 5px;
+}
+
+#contact-info-heading {
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: 0;
+    padding: 5px;
+}
+
