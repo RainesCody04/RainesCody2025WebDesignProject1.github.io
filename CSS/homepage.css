@@ -58,10 +58,10 @@ footer {
 }
 
 #image-homepage {
-    color: black;
-    background-color: white;
     width: 1000px;
     padding: 5px;
+    box-shadow: 0 0 25px 0 greenyellow;
+    background-color: white;
 }
 
 .image {

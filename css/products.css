@@ -24,7 +24,7 @@ body {
 }
 
 .products {
-    background-color: white;
+    background-color: black;
     display: flex;
     align-items: center;
     text-align: center;
@@ -54,10 +54,6 @@ footer {
     padding: 5px;
 }
 
-.image {
-    background-color: white;
-}
-
 .copyright {
     display: flex;
     justify-content: center;
@@ -69,38 +65,45 @@ footer {
     width: 300px;
     height: 300px;
     margin: 0;
+    border-radius: 25px 45px 0 45px;
 }
 
 #product-img-1 {
     width: 300px;
     height: 200px;
     margin: 0;
+    box-shadow: 0 0 25px 0 greenyellow;
+    border-radius: 0 45px 0 45px;
 }
 
 #product2 {
-    color:black;
     background-color: #ffb7c5;
     width: 300px;
     height: 300px;
     margin: 0;
+    border-radius: 25px 45px 0 45px;
 }
 
 #product-img-2 {
     width: 300px;
     height: 200px;
     margin: 0;
+    box-shadow: 0 0 25px 0 greenyellow;
+    border-radius: 0 45px 0 45px;
 }
 
 #product3 {
-    color:black;
     background-color: #ffb7c5;
     width: 300px;
     height: 300px;
     margin: 0;
+    border-radius: 25px 45px 0 45px;
 }
 
 #product-img-3 {
     width: 300px;
     height: 200px;
     margin: 0;
+    box-shadow: 0 0 25px 0 greenyellow;
+    border-radius: 0 45px 0 45px;
 }

@@ -107,6 +107,8 @@ footer {
     background-color: white;
     width: 1200px;
     padding: 5px;
+    box-shadow: 0 0 25px 0 greenyellow;
+    background-color: white;
 }
 
 .image {
