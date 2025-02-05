@@ -76,9 +76,22 @@ footer {
     justify-content: center;
 }
 
-@media  screen and (min-width: 481px) {
-    
+@media  screen and (max-width: 320px) {
+    header, footer  {
+    max-width: 400px;
 }
+    body {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+
+}
+
+
 
 header, footer {
     position: sticky;
