@@ -14,6 +14,8 @@ body {
     align-items: center;
     flex-direction: column;
     margin-bottom: 0;
+    font-size: x-large;
+    font-weight: bold;
     
 }
 
@@ -94,8 +96,8 @@ header {
     background-color: #ffb7c5;
     width: 1200px;
     padding: 5px;
-    top: 0;
     position: sticky;
+    top: 0;
 }
 
 footer {
@@ -105,10 +107,12 @@ footer {
     padding: 5px;
 }
 
-#image-homepage {
-    width: 1200px;
+#image-contact-page {
+    width: 1000px;
     padding: 5px;
+    border-radius: 25px 25px 25px 25px;
     box-shadow: 0 0 25px 0 greenyellow;
+    background-color: antiquewhite;
 }
 
 .image {
@@ -128,7 +132,6 @@ footer {
     width: 1200px;
     margin: 0;
     flex-direction: row;
-    padding: 5px;
 }
 
 #contact-info-heading {
@@ -141,24 +144,20 @@ footer {
 }
 
 @media  screen and (max-width: 320px) {
-    header, footer, #image-contact-page, #contact-info, #contact-info-div  {
+    header, footer, #image-contact-page, .contact-info, #contact-info-div, #contact-info-heading {
         max-width: 300px;
         justify-content: center;
         display: flex;
         flex-direction: column;
-}
-
-    nav  {
-        justify-content: center;
-        display: flex;
-}
+        justify-content: space-between;
+    }
 
     header {
         display: flex;
         flex-direction: column;
         height: 130px;
 
-}
+    }
 
     #webpage-title-contact-page {
         display: flex;
@@ -173,6 +172,23 @@ footer {
         justify-content: space-between;
     }
 
+    .email-info {
+        width: 210px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fax-info {
+        width: 210px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phone-number-info {
+        width: 210px;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
  
-
