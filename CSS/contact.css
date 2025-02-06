@@ -94,6 +94,8 @@ header {
     background-color: #ffb7c5;
     width: 1200px;
     padding: 5px;
+    top: 0;
+    position: sticky;
 }
 
 footer {
@@ -103,12 +105,10 @@ footer {
     padding: 5px;
 }
 
-#image-contact-page {
-    background-color: white;
+#image-homepage {
     width: 1200px;
     padding: 5px;
     box-shadow: 0 0 25px 0 greenyellow;
-    background-color: white;
 }
 
 .image {
@@ -140,7 +140,39 @@ footer {
     padding: 5px;
 }
 
-@media  screen and (min-width: 481px) {
-    
+@media  screen and (max-width: 320px) {
+    header, footer, #image-contact-page, #contact-info, #contact-info-div  {
+        max-width: 300px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
 }
+
+    nav  {
+        justify-content: center;
+        display: flex;
+}
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 130px;
+
+}
+
+    #webpage-title-contact-page {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        justify-content: space-between;
+    }
+
+}
+ 
 
